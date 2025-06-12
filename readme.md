@@ -1,5 +1,5 @@
 <center>
-![](./workflow.png){width=100%}  
+![]([./workflow.png](https://github.com/WuRAFY/LAMPS/blob/main/workflow.png)){width=100%}  
 </center>
 
 # LAMPS
