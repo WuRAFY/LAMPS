@@ -5,6 +5,24 @@ This repository contains code for <u>L</u>U<u>A</u>D <u>M</u>ulti-<u>P</u>latfor
 ## Input files
 Input files are stored at https://1drv.ms/u/c/1aa2c7aee02dd080/EfdKl2ieqldMg3I_bHUqiwABHIKozV-4XAmip76R57vYuQ. Unzip the file using 7-zip or other tool.
 
+## Scripts
+Scripts|Data|Description
+-----------|------------|-------------------------------------
+01_fig1_cell_qc&annotation.r|LAMPS single-cell & LSA single-cell|Quality controla and cell type annotation for scRNA-seq data 
+02_fig1_malignant_cell_identification.r|LAMPS single-cell & LSA single-cell|Identify malignant cell from epithelial cell cluster according to marker expression, GII and cluster distribution 
+03_fig1_mp_discovery.r|LAMPS single-cell & LSA single-cell|Meta-program identification from scRNA-seq data 
+04_fig1_scoring&qc.r|LAMPS single-cell & LSA single-cell|Score malignant cells with meta-programs and re-cluster for quality control  
+05_fig1_trajectory(individual).r|LAMPS single-cell & LSA single-cell| Construct malignant cell trajectory for each patient separately  
+06_fig2_trajectory(unified).r|LAMPS single-cell & LSA single-cell| Construct the consensus trajectory  
+07_fig2_bulk_assignment.r|LSA bulk| Assign patients with only bulk-seq data to a branch 
+08_fig2_multi-region_transition_inference.r|LAMPS multi-region| Branch transition direction inference 
+09_fig3_TME_clustering.r|LSA bulk| Cluster patients according to TME cell composition for TME subtype discovery 
+10_fig3_EM_discovery.r|LSA bulk & LSA single-cell| Eco-module discovery 
+11_fig4_ST.r|LAMPS ST| Analysis for spatial transcriptomic data including spot deconvolution, cell colocalization and cell interaction 
+12_fig5_cohort_comparision.r|LSA bulk| Cohort comparsion between EAS and EUR in malignant cell and TME cell 
+13_fig6_prognosis.r|LSA bulk| COX model construction 
+14_fig6_treatment.r|LSA bulk & SU2C-MARK| Treatment prediction 
+  
 ## System
 
 ```         
