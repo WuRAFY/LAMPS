@@ -8,7 +8,7 @@ Input files will be available upon publication.
 ## Scripts
 Scripts|Data|Description
 -----------|------------|-------------------------------------
-01_fig1_cell_qc&annotation.r|LAMPS single-cell & LSA single-cell|Quality controla and cell type annotation for scRNA-seq data 
+01_fig1_cell_qc&annotation.r|LAMPS single-cell & LSA single-cell|Quality control and cell type annotation for scRNA-seq data 
 02_fig1_malignant_cell_identification.r|LAMPS single-cell & LSA single-cell|Identify malignant cell from epithelial cell cluster according to marker expression, GII and cluster distribution 
 03_fig1_mp_discovery.r|LAMPS single-cell & LSA single-cell|Meta-program identification from scRNA-seq data 
 04_fig1_scoring&qc.r|LAMPS single-cell & LSA single-cell|Score malignant cells with meta-programs and re-cluster for quality control  
