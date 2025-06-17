@@ -1,4 +1,4 @@
-
+![image](https://github.com/WuRAFY/LAMPS/blob/main/workflow.png)
 # LAMPS
 This repository contains code for <u>L</u>U<u>A</u>D <u>M</u>ulti-<u>P</u>latform <u>S</u>equencing data analysis. Scripts are organized according to figure order and example data was supplied in input directory.
 
